@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+ --font-bebasNeue: var(--font-bebasNeue);
+  --font-frederick: var(--font-frederick);
+  --font-tasa: var(--font-tasa);
+  --font-zendots: var(--font-zendots);
+}
+
+body{
+  scrollbar-width: none;
+}
+
+@layer base {
+  body {
+    @apply bg-stone-100 text-neutral-900;
+  }
+  button {
+    @apply cursor-pointer;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply font-bebasNeue;
+  }
+}
+
+::selection {
+  @apply bg-orange-500 text-white;
+}
+
+@layer utilities {
+  .container {
+    @apply px-[5vw] w-full mx-auto;
+  }
+
+  .text-line {
+    @apply overflow-hidden text-nowrap;
+  }
+}
+
+@layer utilities {
+  .font-frederick {
+    font-family: var(--font-frederick);
+  }
+
+  .font-tasa {
+    font-family: var(--font-tasa);
+  }
+  .font-zendots {
+    font-family: var(--font-zendots);
+  }
+}
