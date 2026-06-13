@@ -66,10 +66,10 @@ export const projectItems = [
   },
   {
     id: 4,
-    title: "VIREX",
-    text: "A responsive dashboard interface with charts, stats, and dynamic layouts. Built for scalability with a component-driven approach and smooth transitions between views.",
+    title: "ZORA-SAAS",
+    text: "A SaaS dashboard template with a focus on data visualization, user management, and responsive design. Built to be easily customizable and scalable for various business needs.",
     tools: ["React", "Tailwind CSS", "TypeScript", "Recharts"],
-    img: "/images/project-2.webp",
+    img: "/images/project-zora.png",
     backgroundClr: "oklch(52% 0.105 223.128)",
   },
 ];
