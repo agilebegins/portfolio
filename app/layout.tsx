@@ -53,7 +53,7 @@ export const tasa = localFont({
 export const zendots = localFont({
   src: [
     {
-      path: "./fonts/Zendots-Regular.ttf",
+      path: "./fonts/ZenDots-Regular.ttf",
       weight: "400",
       style: "normal",
     },
