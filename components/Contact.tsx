@@ -2,16 +2,17 @@
 
 import {
   RiGithubFill,
+  RiInstagramFill,
   RiLinkedinBoxFill,
   RiWhatsappFill,
 } from "@remixicon/react";
-import { Copy, Check, ArrowRight } from "lucide-react";
+import { Copy, Check, ArrowRight, Icon } from "lucide-react";
 import { useState } from "react";
 
 export default function Contact() {
   const [copied, setCopied] = useState(false);
 
-  const email = "agilebegins@gmail.com";
+  const email = "portfolio@agilebegins.in";
 
   const socials = [
     {
@@ -25,9 +26,9 @@ export default function Contact() {
       label: "WhatsApp",
     },
     {
-      icon: RiGithubFill,
-      href: "https://github.com",
-      label: "GitHub",
+      icon: RiInstagramFill,
+      href: "https://instagram.com/agilebegins.in",
+      label: "Instagram",
     },
   ];
 

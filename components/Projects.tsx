@@ -22,7 +22,7 @@ export default function Projects() {
     })
   }, {scope: containerRef});
   return (
-    <section ref={containerRef} className="mb-[100vh]">
+    <section ref={containerRef} id="projects" className="mb-[100vh]">
       {/* title */}
       <div className="project-panel min-h-svh flex flex-col items-center justify-center space-y-1 container">
         <h2 className="text-5xl md:text-7xl">our recent projects</h2>
@@ -42,7 +42,7 @@ export default function Projects() {
               <span className="size-10 border rounded-full inline-flex items-center justify-center text-lg">{item.id}</span>
               <p>{item.text}</p>
               <h3 className="text-4xl sm:text-5xl lg:text-7xl font-zendots">{item.title}</h3>
-              <Button2 label="live demo" />
+              <Button2 label="live demo" href={item.link} />
             </div>
 
             {/* image */}

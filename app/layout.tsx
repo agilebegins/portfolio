@@ -1,8 +1,23 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { Sora, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import CustomCursor from "@/components/CustomCursor";
+
+export const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  display: "swap",
+  variable: "--font-spacegrotesk",
+});
+
+export const sora = Sora({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  display: "swap",
+  variable: "--font-sora",
+});
 
 export const bebasNeue = localFont({
   src: [
@@ -74,7 +89,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${bebasNeue.variable} ${pally.className} ${frederick.variable} ${tasa.variable} ${zendots.variable} antialiased`}>
+      <body className={`${bebasNeue.variable} ${sora.variable} ${spaceGrotesk.variable} ${pally.className} ${frederick.variable} ${tasa.variable} ${zendots.variable} antialiased`}>
         <CustomCursor />
         <Header />
         <main className="min-h-svh">{children}</main>

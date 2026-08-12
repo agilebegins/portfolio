@@ -40,29 +40,32 @@ export const aboutStatusItems = [
 ];
 
 export const projectItems = [
-  {
-    id: 1,
-    title: "NEXORA",
-    text: "A modern multi-page SaaS website built with a strong focus on performance, accessibility, and smooth user experience. Includes animated sections, responsive layouts, and SEO-optimized structure.",
-    tools: ["Next.js", "Tailwind CSS", "TypeScript", "Framer Motion"],
-    img: "/images/project-1.webp",
-    backgroundClr: "#171717",
-  },
-  {
-    id: 2,
-    title: "DOMYRA",
-    text: "A property listing platform featuring advanced search, filters, and clean UI components. Designed to handle large datasets while maintaining fast load times and intuitive navigation.",
-    tools: ["Next.js", "shadcn/ui", "Tailwind CSS", "React"],
-    img: "/images/project-2.webp",
-    backgroundClr: "#9589d3",
-  },
+ {
+  id: 1,
+  title: "AGILE BEGINS WORKSHOP",
+  text: "A bold workshop platform built to help students move from uncertainty to action through practical sessions focused on internships, projects, freelancing, and real career growth.",
+  tools: ["Next.js", "React", "Tailwind CSS", "GSAP"],
+  img: "/images/project_1.png",
+  link: "https://agilebegins.in",
+  backgroundClr: "#171717",
+},
+ {
+  id: 2,
+  title: "DENTACARE",
+  text: "A modern dental hospital booking platform designed to help patients explore treatments, find the right dental care, and book appointments through a simple and intuitive experience.",
+  tools: ["Next.js", "shadcn/ui", "Tailwind CSS", "React"],
+  img: "/images/project_2.png",
+  link: "/",
+  backgroundClr: "#171717",
+},
   {
     id: 3,
     title: "KLYDE",
     text: "A highly interactive personal portfolio showcasing projects, skills, and experience using fluid animations and scroll-based interactions to create a memorable user experience.",
     tools: ["HTML", "CSS", "JavaScript", "GSAP"],
     img: "/images/project-3.webp",
-    backgroundClr: "oklch(50.8% 0.118 165.612)",
+    link: "/",
+    backgroundClr: "#171717",
   },
   {
     id: 4,
@@ -70,7 +73,8 @@ export const projectItems = [
     text: "A SaaS dashboard template with a focus on data visualization, user management, and responsive design. Built to be easily customizable and scalable for various business needs.",
     tools: ["React", "Tailwind CSS", "TypeScript", "Recharts"],
     img: "/images/project-zora.png",
-    backgroundClr: "oklch(52% 0.105 223.128)",
+    link: "/",
+    backgroundClr: "#171717",
   },
 ];
 
