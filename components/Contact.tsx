@@ -22,7 +22,7 @@ export default function Contact() {
     },
     {
       icon: RiWhatsappFill,
-      href: "https://wa.me/917013218923",
+      href: "https://wa.me/919000887252",
       label: "WhatsApp",
     },
     {

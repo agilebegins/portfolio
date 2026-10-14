@@ -164,7 +164,7 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-5 mt-5">
             <div className="about-stat border border-neutral-200 p-8 rounded-xl bg-white">
               <h3 className="text-5xl font-bold text-orange-500">
-                20+
+                10+
               </h3>
               <p className="mt-3 uppercase text-sm text-neutral-700">
                 Projects Delivered
@@ -176,7 +176,7 @@ export default function About() {
                 10+
               </h3>
               <p className="mt-3 uppercase text-sm text-neutral-700">
-                Industries Served
+                Tools & Technologies
               </p>
             </div>
 
